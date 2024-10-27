@@ -1,6 +1,7 @@
 import { cva, type VariantProps } from "class-variance-authority";
-import { Slot } from "@radix-ui/react-slot"; //mergees the props and passes to immediate child
+//mergees the props and passes to immediate child
 import { cn } from "@/lib/utils";
+import { Slot } from "@radix-ui/react-slot";
 import * as React from "react";
 
 const buttonVariants = cva(
